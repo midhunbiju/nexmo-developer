@@ -33,7 +33,7 @@ The following diagram illustrates the relationship between the Messages API and 
 
 This API is currently in Beta.
 
-Nexmo always welcomes your feedback. Your suggestions help us improve the product. If you do need help, please email [support@nexmo.com](mailto:support@nexmo.com) and include Messages API in the subject line. Please note that during the Beta period, support times are limited to Monday to Friday.
+Nexmo always welcomes your feedback. Your suggestions help us improve the product. If you do need help, please email [support@nexmo.com](mailto:support@nexmo.com) and include the Messages API in the subject line. Please note that during the Beta period, support times are limited to Monday to Friday.
 
 During Beta Nexmo will expand the capabilities of the API.
 
@@ -51,7 +51,7 @@ WhatsApp | ✅ | ❎ | ❎ | ❎ | ❎ | ✅
 Channel | Inbound Text | Inbound Image | Inbound Audio | Inbound Video | Inbound File | Inbound Location
 -- | -- | -- | -- | -- | -- | --
 Facebook Messenger | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
-WhatsApp | ✅ | ❎ | ❎ | ❎ | ❎ | ❎
+WhatsApp | ✅ | ❎ | ❎ | ❎ | ❎ | ✅
 
 **Key:**
 

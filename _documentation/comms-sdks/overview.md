@@ -6,7 +6,7 @@ title: Overview
 
 Nexmo Comms SDKs is a conversation-centric product consisting of SDKs for iOS, Android, and JavaScript and a [REST API](/api/conversation).
 
-Stitch enables communications across multiple channels including:
+The Nexmo Comms SDKs enable communications across multiple channels including:
 
 * In-app messaging over IP
 * In-app voice over IP
@@ -40,7 +40,7 @@ If you want communicate with Nexmo during the developer preview you can:
 
 ### In-App Messaging
 
-Build a feature rich chat experience that includes typing indicators and sent, delivered and read receipts.
+Build a feature-rich chat experience that includes typing indicators and sent, delivered and read receipts.
 
 Some features include:
 
@@ -52,7 +52,7 @@ Some features include:
 
 ### In-App Voice
 
-Nexmo In-App Voice uses WebRTC and includes all the essentials you need to build a feature rich voice experience.
+Nexmo In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience.
 
 Some features include:
 
@@ -64,7 +64,7 @@ Some features include:
 
 ### In-App Video
 
-Nexmo In-App Video uses WebRTC and includes all the essentials you need to build a feature rich video experience.
+Nexmo In-App Video uses WebRTC and includes all the essentials you need to build a feature-rich video experience.
 
 Some features include:
 
@@ -75,6 +75,15 @@ Some features include:
 
 [Overview](/comms-sdks/in-app-video/overview)
 
+## Participating in the Developer Preview
+
+This Developer Preview will focus on the In-App Messaging and Voice capabilities. During this program, there will be frequent releases with new features and bug fixes based on your feedback. During the Developer Preview, it is possible that there shall be breaking changes to the SDK and API but these will be explicitly communicated beforehand.
+
+If you want to communicate with Nexmo during the developer preview you can:
+
+* Join the [Nexmo community slack](https://developer.nexmo.com/community/slack/) and check out the [#stitch](https://nexmo-community.slack.com/messages/C9H152ATW) channel.
+* Email [ea-support@nexmo.com](mailto:ea-support@nexmo.com) directly.
+
 ## Concepts
 
 You can read more about Stitch key concepts in the following topics:
@@ -83,22 +92,26 @@ You can read more about Stitch key concepts in the following topics:
 product: conversation
 ```
 
-## SDK Documentation  
+## SDK Documentation
 
-<div class="row">
-  <div class="columns small-12 medium-4">
-    <a href="/sdk/stitch/javascript/" target="_blank" class="card spacious card--image card--javascript">
-      <h2>JavaScript</h2>
+
+<div class="Vlt-grid">
+  <div class="Vlt-col Vlt-col--center">
+    <a href="/sdk/stitch/javascript/" class="Vlt-btn Vlt-btn--tertiary Vlt-btn--large">
+      <svg class="Vlt-yellow"><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-js"></use></svg>
+      JavaScript
     </a>
   </div>
-  <div class="columns small-12 medium-4">
-    <a href="/sdk/stitch/android/" class="card spacious card--image card--android">
-      <h2>Android</h2>
+  <div class="Vlt-col Vlt-col--center">
+    <a href="/sdk/stitch/android/" class="Vlt-btn Vlt-btn--tertiary Vlt-btn--large">
+      <svg class="Vlt-green-light"><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-android"></use></svg>
+      Android
     </a>
   </div>
-  <div class="columns small-12 medium-4">
-    <a href="/sdk/stitch/ios/" class="card spacious card--image card--ios">
-      <h2>iOS</h2>
+  <div class="Vlt-col Vlt-col--center">
+    <a href="/sdk/stitch/ios/" class="Vlt-btn Vlt-btn--tertiary Vlt-btn--large">
+      <svg><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-apple"></use></svg>
+      iOS
     </a>
   </div>
 </div>
@@ -108,3 +121,4 @@ product: conversation
 * [API Reference](/api/conversation)
 * [Nexmo CLI](https://github.com/nexmo/nexmo-cli/tree/beta)
 * [Node.JS and Angular Demo](https://github.com/Nexmo/stitch-demo) with an [Android](https://github.com/Nexmo/stitch-demo-android) client demo
+
