@@ -47,4 +47,5 @@
 
 "/conversation": "/conversation/overview"
 "/conversation/concepts": "/conversation/concepts/conversation"
+"/conversation/building-blocks": "/conversation/building-blocks/conversation/create-conversation"
 "/conversation/api-reference": "/api/conversation"
