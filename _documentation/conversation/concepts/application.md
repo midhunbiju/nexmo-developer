@@ -1,16 +1,12 @@
 ---
 title: Application
-description: An Nexmo Application provides a container for Users and Conversations.
+description: A Nexmo Application provides a container for Users and Conversations.
 ---
 
 # Application
 
-Application concept - You need to create a RTC? type Application (we also have Voice and Olympus). 
+A Nexmo Application contains a set of [Users](/conversation/concepts/user) and [Conversations](/conversation/concepts/conversation).
 
-Contains the configuration for where data is to be sent to and from. Contains a set of unique sets of users and conversations.
+Your Nexmo account can contain multiple applications.
 
-Diagram will go here:
-
-Main account -> Application -> Users and Conversations
-             L-> Application -> Users and Conversations
-
+![Nexmo Application](/assets/images/conversation-application.png)
