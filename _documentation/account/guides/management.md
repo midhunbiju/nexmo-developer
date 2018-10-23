@@ -1,4 +1,4 @@
-﻿---
+---
 title: Account Management
 description: How to use the Nexmo dashboard
 ---
