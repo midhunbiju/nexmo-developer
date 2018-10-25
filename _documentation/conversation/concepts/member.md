@@ -5,7 +5,7 @@ description: A Member is created when a User joins a Conversation.
 
 # Member
 
-In order for a User to communicate through a Conversation they must join the Conversation through membership.
+In order for a User to communicate through a [Conversation](/conversation/concepts/conversation) they must join the Conversation through membership.
 
 Member objects connect Users with Conversations. When a User joins a Conversation a Member object has to be created. Each Member object has one Conversation and one User associated with it.
 

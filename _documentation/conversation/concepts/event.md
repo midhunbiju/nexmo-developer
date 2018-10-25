@@ -5,12 +5,9 @@ description: Conversations are event-driven. Events are generated whern ley acti
 
 # Event
 
-Conversations are event driven. When key activities occur an event is
-generated, which can be handled by the application. For example when
-a User joins a Conversation a `member:joined` event is fired. Other
-events include `member:left`, and `member:invited`.
+Conversations are event-driven. When key activities occur an event is generated, which can be handled by the application. For example when a User joins a Conversation a `member:joined` event is fired. Other events include `member:left`, and `member:invited`.
 
-The following code sniipet shows that code can be executed based on the event fired:
+The following code snippet shows that code can be executed based on the event fired:
 
 ``` javascript
 ...
