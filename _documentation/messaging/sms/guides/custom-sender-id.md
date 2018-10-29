@@ -4,32 +4,39 @@ title: Custom Sender ID
 
 # Custom Sender ID
 
-The Sender ID is the number or text shown on a handset when it displays a message. You set a custom Sender ID to better represent your brand.
+An SMS Sender ID is an easy way to brand your SMS messages so that the person receiving them can quickly see who it is from. Use a custom Sender ID to better represent your brand and maximise readership and response rates.
 
-## Overview
+## Using a Sender ID
+
+Set the Sender ID in the `from` field of the message request.
 
 The Sender ID can be either:
 
-* **Numeric** - up to a 15 digit telephone number in international format without a leading `+` or `00`
-* **Alphanumeric** - an 11 character string of ^[supported characters](abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789).
+* **Numeric**
+    * A telephone number of up to 15 digits
+    * The number must be in [international format](/concepts/guides/glossary#number-format)
+    * Do not include the leading `+` or `00`
+* **Alphanumeric**
+    * An 11 character string of ^[supported characters](abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789).
+    * Spaces are not allowed
 
-> Note: Using other characters may result in failed delivery or an altered Sender ID.
+> **Note**: Using other characters might prevent your message from being delivered or the Sender ID being changed.
 
-## Country specific
+## Country-specific considerations
 
-Depending on the jurisdiction one or more of the following can happen:
+Some countries impose limitations on Sender IDs, such as:
 
-* Your Sender ID must be a virtual number.
-* SMS filtering is applied and the Sender ID is modified.
-* Numeric-only Sender IDs are replaced by short codes.
-* You can only send traffic in a limited time window.
-* For marketing traffic you have to implement a STOP system.
+* Your Sender ID must be a virtual number
+* SMS filtering is applied which modifies your Sender ID
+* Your numeric-only Sender ID is replaced by a [short code](https://en.wikipedia.org/wiki/Short_code)
+* You can only send SMS at certain times of the day
+* If your SMS is for marketing purposes you must implement a [STOP system](https://developer.nexmo.com/api/sms/us-short-codes/alerts/subscription)
 
 Before you start your messaging campaign:
 
-1. Check the Sender ID columns in the [Country Specific Features](country-specific-features).
-2. Batch send your messages to each country and set `from` to match the Sender ID capabilities.
+1. Check the `SenderID` column for the target country in [this document](https://help.nexmo.com/hc/en-us/articles/115011781468).
+2. Send your all your messages to numbers in the same country in a batch and set the Sender ID to match what that country allows.
 
 ## SMS Spoofing
 
-Illegitimate use of [SMS spoofing](https://en.wikipedia.org/wiki/SMS_spoofing) such as impersonating another person, company or product is strictly forbidden.
+Nexmo expressly prohibits [SMS spoofing](https://en.wikipedia.org/wiki/SMS_spoofing) where the Sender ID is used to impersonate another person, company or product.
