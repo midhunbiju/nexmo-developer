@@ -6,6 +6,8 @@ title: Custom Sender ID
 
 An SMS Sender ID is an easy way to brand your SMS messages so that the person receiving them can quickly see who it is from. Use a custom Sender ID to better represent your brand and maximise readership and response rates.
 
+> **Note**: Your customers cannot respond to an SMS with a Sender ID.
+
 ## Using a Sender ID
 
 Set the Sender ID in the `from` field of the message request.
