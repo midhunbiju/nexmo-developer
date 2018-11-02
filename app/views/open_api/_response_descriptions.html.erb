@@ -10,7 +10,7 @@
     </a>
     </p>
 
-    <div id="acc<%= id %>" class="Vlt-js-accordion__content">
+    <div id="acc<%= id %>" class="Vlt-js-accordion__content <%= auto_expand_responses ? 'Vlt-js-accordion__content_open' : '' %>">
       <h4 id="<%= anchor_prefix %>">Response Fields</h4>
       <% response.formats.each_with_index do |format, index| %>
         <div class="js-format" data-format="<%= format %>">
